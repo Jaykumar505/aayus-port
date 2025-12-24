@@ -12,23 +12,6 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Ayush Kumar, a passionate Software Engineer specializing in full-stack development with MERN stack, database design, and IoT projects. Currently pursuing MCA at GIFT Autonomous College.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
